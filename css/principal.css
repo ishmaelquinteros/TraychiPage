@@ -1,0 +1,36 @@
+.caja__principal{
+    display: flex;
+    height: calc(100vh - 100px);
+}
+.principal__texto{
+    width: 50%;
+    padding-top: 10%;
+}
+.caja__imagen{
+    background: url(../imagenes/Home.png) no-repeat center / cover;
+    width: 50%;
+}
+.principal__titulo{
+    font-family: Cochin, Georgia, Times,'Times New Roman', serif;
+    font-size: 3.25rem;
+    font-weight: bold;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+.principal__descripcion{
+    color:gray;
+    font-size: 1.75rem;
+    margin-left:2.5rem;
+    margin-bottom: 2rem;
+}
+.principal__boton{
+    color: #ffffff;
+    font-size:  1rem;
+    height: 2rem;
+    background-color: #040448;
+
+    margin-left: 2.5rem;
+    margin-right: 1.5rem;
+    border-radius: 100px;
+
+}
