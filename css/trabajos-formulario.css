@@ -9,6 +9,8 @@
     align-items: center;
 }
 .titulo__trabajos{
+    font-size: 1.5rem;
+    font-weight: bold;
     margin: 1rem;
 }
 .trabajos__opciones{
@@ -20,8 +22,8 @@
 }
 .tarjetas__trabajos{
     display: flex;
-    justify-content: center;
     height: inherit;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .card_trabajo{
@@ -33,7 +35,6 @@ margin: 1rem 1rem;
 height: auto;
 width: 25%;
 }
-
 .imagen__trabajo--apex{
     background: url(../imagenes/Imagen-seccion-trabajos.jpg) center / cover;
     width: 100%;
@@ -64,6 +65,35 @@ width: 25%;
     width: 100%;
     height: 100%;
 }
+.descripcion__trabajo{
+    margin: 1rem 0;
+}
 .clase__formulario{
     height: 100vh;
+}
+.clase__formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formulario__contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0;
+    width: 125%;
+}
+.titulo_formulario{
+    margin-top: 4rem;
+}
+.form__elemento{
+    margin: .5rem;
+    width: 50%;
+}
+.form_enviar{
+    background-color: #040448;
+    border-radius: 80px;
+    color: #ffffff;
+    height: 2rem;
+    width: 50%;
 }
