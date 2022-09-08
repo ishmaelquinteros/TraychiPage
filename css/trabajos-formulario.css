@@ -1,0 +1,69 @@
+.trabajos{
+    background-color: linen;
+    height: 100vh;
+    display: inline-table;
+}
+.caja__trabajos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo__trabajos{
+    margin: 1rem;
+}
+.trabajos__opciones{
+    display: flex;
+    margin: 1rem;
+}
+.trabajo__opcion{
+    margin: 0 1rem;
+}
+.tarjetas__trabajos{
+    display: flex;
+    justify-content: center;
+    height: inherit;
+    flex-wrap: wrap;
+}
+.card_trabajo{
+border: 1px solid #000000;
+display: flex;
+flex-direction: column;
+font-size: .78rem;
+margin: 1rem 1rem;
+height: auto;
+width: 25%;
+}
+
+.imagen__trabajo--apex{
+    background: url(../imagenes/Imagen-seccion-trabajos.jpg) center / cover;
+    width: 100%;
+    height: 100%;
+}
+.imagen__trabajo--desol{
+    background: url(../imagenes/Imagen-seccion-trabajos.jpg) center / cover;
+    width: 100%;
+    height: 100%;
+}
+.imagen__trabajo--UPC{
+    background: url(../imagenes/Imagen-seccion-trabajos.jpg) center / cover;
+    width: 100%;
+    height: 100%;
+}
+.imagen__trabajo--avis{
+    background: url(../imagenes/Imagen-seccion-trabajos.jpg) center / cover;
+    width: 100%;
+    height: 100%;
+}
+.imagen__trabajo--conduent{
+    background: url(../imagenes/Imagen-seccion-trabajos.jpg) center / cover;
+    width: 100%;
+    height: 100%;
+}
+.imagen__trabajo--utn{
+    background: url(../imagenes/Imagen-seccion-trabajos.jpg) center / cover;
+    width: 100%;
+    height: 100%;
+}
+.clase__formulario{
+    height: 100vh;
+}

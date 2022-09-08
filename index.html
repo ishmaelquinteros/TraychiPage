@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset-css.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/encabezado.css">
     <link rel="stylesheet" href="./css/principal.css">
+    <link rel="stylesheet" href="./css/trabajos-formulario.css">
+
     <title>TrayChi - Página en Construcción</title>
 </head>
 <body>
@@ -28,55 +31,88 @@
     <main>
         <div class="caja__principal">
             <div class="principal__texto">
-                <h1 class="principal__titulo"> Traychi lorem ipsum </h3>
-                <p class="principal__descripcion"> Soluciones tecnológicas a medida de cada cliente </p>
+                <h1 class="principal__titulo">Traychi - Consoltoria</h1>
+                <p class="principal__descripcion">"Brindamos soluciones tecnológicas de acuerdo a las necesidades de cada cliente"</p>
                 <button class="principal__boton"> Servicios </button>
                 <a class="principal__contacto"> Contáctenos </a>
             </div>
                 <div class="caja__imagen"></div>
         </div>
-        <section class="servicios__principal" id="servicios">
+        <section class="servicios__principal" id="Servicios">
             <div class="servicios">
-                <span><i class="fa-solid fa-code fa-3x"></i></span>
-                <h1 class="titulo__servicio">Desarrollo de software</h1>
-                <p class="descripcion_servicio">Desarrollamos los servicios y aplicaciones que se requiean, para soportar los procesos de explotación de datos de la organización.</p> 
+                <span class="icono__servicio"><i class=""></i></span>
+                <p class="titulo__servicio">Desarrollo de software</p>
+                <p class="descripcion__servicio">Desarrollamos los servicios y aplicaciones que se requiean, para soportar los procesos de explotación de datos de la organización.</p> 
             </div>
             <div class="servicios">
-                <i class="fa-solid fa-cloud fa-3x"></i>
-                <h1 class="titulo__servicio">Migración a la nube</h1>
+                <span class="icono__servicio"><i class="icono_servicio--nube"></i></span>
+                <p class="titulo__servicio">Migración a la nube</p>
                 <p class="descripcion__servicio">Migración de tus datos a la nube, previo análisis y optimización aprovechando al máximo tus recursos.</p> 
             </div>
             <div class="servicios">
-                <i class="fa-solid fa-diagram-project fa-3x"></i>
-                <h1 class="titulo__servicio">Desarrollo ETL</h1>
+                <span class="icono__servicio"><i class="icono_servicio--conector"></i></span>
+                <p class="titulo__servicio">Desarrollo ETL<p>
                 <p class="descripcion__servicio">Captura, transformación e ingesta de datos, desde múltiples orígenes y en diferentes formatos.</p> 
             </div>
             <div class="servicios">
-                <i class="fa-solid fa-list-check fa-3x"></i>
-                <h1 class="titulo__servicio">Optimización de procesos</h1>
+                <span class="icono__servicio"><i class="fa-list-check fa-solid fa-2x"></i></span>
+                <h3 class="titulo__servicio">Optimización de procesos</h3>
                 <p class="descripcion__servicio">Optimización de procesos de almacenamiento y tratamiento de datos para economizar el máximo</p> 
             </div>
             <div class="servicios">
-                <i class="fa-solid fa-magnifying-glass fa-3x"></i>
-                <h1 class="titulo__servicio">Detección de patrones</h1>
+                <span class="icono__servicio"><i class="fa-magnifying-glass fa-solid fa-2x"></i></span>
+                <h3 class="titulo__servicio">Detección de patrones</h3>
                 <p class="descripcion__servicio">Análisis de datos para encontrar patrones útiles para la toma de decisiones</p> 
             </div>
             <div class="servicios">
-                <i class="fa-solid fa-chart-column fa-3x"></i>
-                <h1 class="titulo__servicio">Reportería a medida</h1>
+                <span class="icono__servicio"><i class="fa-chart-column fa-solid fa-2x"></i></span>
+                <h3 class="titulo__servicio">Reportería a medida</h3>
                 <p class="descripcion__servicio">Desarrollamos reportería customizada para el negocio acorde al scope y necesidad de cada usuario, disponible a tiempo y de fácil lectura</p> 
             </div>
         </section>
-    </main>   
-<section class="trabajos">
-    <div class="caja_trabajos">
-        <h3 class="titulo_trabajos">NUESTRO TRABAJO</h3>
-        <p>TODOS</p>
-        <p>DESARROLLO</p>
-        <p>CLOUD</p>
-        <p>REPORTERÍA</p>
-    </div>   
-
+    </main>
+    <section class="trabajos" id="Trabajos">
+        <div class="caja__trabajos">
+            <h3 class="titulo__trabajos">NUESTRO TRABAJO</h3>
+            <ul class="trabajos__opciones">
+                <li class="trabajo__opcion">TODOS</li>
+                <li class="trabajo__opcion">DESARROLLO</li>
+                <li class="trabajo__opcion">CLOUD</li>
+                <li class="trabajo__opcion">REPORTERÍA</li>
+            </ul>
+        </div>
+        <div class="tarjetas__trabajos">
+            <div class="card_trabajo">
+                <div class="imagen__trabajo--apex"></div>
+                <p class="descripcion__trabajo">Apex - Migrando a la nube</p>
+            </div>
+            <div class="card_trabajo">
+                <div class="imagen__trabajo--desol"></div>
+                <p class="descripcion__trabajo">Desol - Intregando y administrando sistemas</p>
+            </div>
+            <div class="card_trabajo">
+                <div class="imagen__trabajo--UPC"></div>
+                <p class="descripcion__trabajo">Instituto Cabred - Aportando a la educación</p>
+            </div>
+            <div class="card_trabajo">
+                <div class="imagen__trabajo--avis"></div>
+                <p class="descripcion__trabajo">Avis - Diseñando y optimizando bases de datos</p>
+            </div>
+            <div class="card_trabajo">
+                <div class="imagen__trabajo--conduent"></div>
+                <p class="descripcion__trabajo">Conduent - Brindando servicios intregrales</p>
+            </div>
+            <div class="card_trabajo">
+                <div class="imagen__trabajo--utn"></div>
+                <p class="descripcion__trabajo">UTN F.R.C - Colaborando con una prestigiosa institución</p>
+            </div>
+        </div>   
+</section>
+<section class="clase__formulario" id="Formulario">
+    <h2 class="titulo_formulario">Use el siguiente formulario para contactarnos</h2>
+    <form class="formulario__contacto" id="form">
+        
+    </form>
 </section>
 
 </body>

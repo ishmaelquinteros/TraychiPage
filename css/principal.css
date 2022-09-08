@@ -11,7 +11,6 @@
     width: 50%;
 }
 .principal__titulo{
-    font-family: Cochin, Georgia, Times,'Times New Roman', serif;
     font-size: 3.25rem;
     font-weight: bold;
     margin-left: 2rem;
@@ -20,17 +19,58 @@
 .principal__descripcion{
     color:gray;
     font-size: 1.75rem;
+    font-style: italic;
     margin-left:2.5rem;
     margin-bottom: 2rem;
 }
 .principal__boton{
+    background-color: #040448;
+    border-radius: 100px;
     color: #ffffff;
     font-size:  1rem;
     height: 2rem;
-    background-color: #040448;
-
     margin-left: 2.5rem;
     margin-right: 1.5rem;
+<<<<<<< Updated upstream
     border-radius: 100px;
-
+=======
+}
+.servicios__principal{
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+}
+.servicios{
+    background-color: #fdfefe;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    height: auto;
+    margin: 1rem 2.5rem;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+    width: 25%;
+}
+.icono__servicio{
+    background-color: aliceblue;
+    height: 4rem;
+    margin: 2rem 0 0 1.5rem ;
+    width: 20%;
+}
+.icono_servicio--code{
+    width: auto;
+    height: auto;
+}
+.titulo__servicio{
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 1.2rem 0;
+    padding: 0 1.2rem;
+}
+.descripcion__servicio{
+    font-size: 1rem;
+    padding: 0 1.5rem;
+    line-height: 1.5rem;
+>>>>>>> Stashed changes
 }
